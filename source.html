@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="headings-container">
+                <h1>AI Image Generator</h1>
+                <h2 class="heading">Create AI-Generated Images from Text</h2>
+                <h5 class="sub-heading">
+                    Enter a description, and let AI generate a unique image based on your input.
+                </h5>
+            </div>
+
+            <div class="form-container">
+                <form id="generate-image-form" class="my-form">
+                    <input id="input-value" placeholder="Enter a description..." type="text" class="form-input form-controls">
+                    <button type="submit" class="image-generate-btn form-controls">Generate Image</button>
+                </form>
+            </div>
+
+            <div id="images-visible" class="image-container">
+                <p id="imageContainerText"></p>
+                <img id="generated-image" class="my-generated-image" src="" alt="AI Generated Image">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
